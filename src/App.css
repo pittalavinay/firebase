@@ -1,0 +1,205 @@
+body,html{
+ background-color: rgb(71, 80, 11);
+}
+.form
+{
+  background-image: linear-gradient(red,yellow);
+  height:500px;
+  width: 500px;
+  margin-top: 50px;
+  box-shadow: 2px 2px 9px rgb(78, 8, 163);
+  border-radius: 100px;
+  z-index: 1;
+}
+.for{
+  width:400px;
+  height:30px;
+  margin-top:30px;
+  border-radius: 50px;
+}
+.log
+{
+  width:150px;
+  height: 30px;
+  border-radius: 50px;
+}
+.log:hover
+{
+  color:white;
+  background-color: red;
+  animation-name: vinay;
+}
+@keyframes vinay
+{
+  100%
+  {
+    transform: rotate(45deg);
+  }
+}
+.i
+{
+    width:150px;
+    height:150px;
+    background-image: linear-gradient(white,blue);
+    border-radius: 100px;
+    animation-name:vinay;
+    animation-duration: 7s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    animation-direction: alternate-reverse;
+}
+.v
+{
+    width:150px;
+    height:150px;
+    background-image: linear-gradient(white,blue);
+    border-radius: 100px;
+    animation-name:king;
+    animation-duration: 7s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    animation-direction: alternate-reverse;
+}
+@keyframes vinay
+{
+   0%
+   {
+
+    transform: translateY(900px);
+
+   }
+   /* 100%
+    {
+        transform:translateX(200px);
+    }*/
+    
+}
+@keyframes king
+{
+0%
+{
+    transform:translateY(1000px);
+}
+95%
+{
+    transform:translateX(200px);
+}
+89%
+{
+    transform:scale(4);
+}
+100%
+{
+    transform: translateX(500px);
+
+}
+}
+.y
+{
+    width:150px;
+    height:150px;
+    background-image: linear-gradient(white,blue);
+    border-radius: 100px;
+    animation-name:v;
+    animation-duration: 12s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    animation-direction:normal;
+}
+@keyframes v
+{
+   0%
+   {
+
+    transform: translateX(1000px);
+
+   }
+    100%
+    {
+        transform:translateY(300px);
+    }
+    
+}
+.m{
+    width:50px;
+    height:50px;
+    background-image: linear-gradient(white,blue);
+    border-radius: 100px;
+    animation-name:vi;
+    animation-duration: 7s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    animation-direction: alternate-reverse;
+
+}
+.j
+{    width:50px;
+    height:50px;
+    background-image: linear-gradient(red,yellow);
+    border-radius: 100px;
+    animation-name:vin;
+    animation-duration: 7s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    animation-direction: alternate-reverse;
+
+}
+.k{
+    width:50px;
+    height:50px;
+    background-image: linear-gradient(red,yellow);
+    border-radius: 100px;
+    animation-name:vina;
+    animation-duration: 7s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    animation-direction: alternate-reverse;
+
+}
+.o{    width:50px;
+    height:50px;
+background-image: linear-gradient(red,yellow);
+    border-radius: 100px;
+    animation-name:vinas;
+    animation-duration: 7s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    animation-direction: alternate-reverse;
+
+}
+@keyframes vi
+{
+ 0%
+ {
+    transform:translateX(1100px);
+ }
+ 0%
+ {
+    transform: translateY(900px);
+ }
+}
+@keyframes vin
+{
+ 0%
+ {
+    transform:translateX(1100px);
+ }
+ 100%
+ {
+transform: scale(4);
+ }
+}
+@keyframes vina
+{
+ 0%
+ {
+    transform:translateX(1100px);
+ }
+}
+@keyframes vinas
+{
+ 0%
+ {
+    transform:translateX(1100px);
+ }
+}
